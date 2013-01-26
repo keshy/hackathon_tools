@@ -1,0 +1,37 @@
+{
+    "name": "http-server",
+    "preferGlobal": true,
+    "version": "0.1",
+    "author": "keshi8086 <keshi8086@gmail.com>",
+    "description": "a simple zero-configuration command-line http server",
+    "contributors": [
+        {
+            "name": "Shankar Narayan",
+            "email": "keshi8086@gmail.com"
+        }
+    ],
+    "bin": {
+        "http-server": "./src/server"
+    },
+    "scripts": {
+        "start": "node ./src/server"
+    },
+    "main": "./src/server",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/keshy/hackathon_tools.git"
+    },
+    "keywords": [
+        "cli",
+        "http",
+        "server"
+    ],
+    "dependencies": {
+        "optimist": "0.2.x",
+        "underscore": "1.4.x"
+    },
+    "analyze": false,
+    "engines": {
+        "node": ">=0.6"
+    }
+}
