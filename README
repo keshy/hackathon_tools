@@ -1,0 +1,12 @@
+========================================================================
+Tools for hackathon events
+========================================================================
+
+This repository would contain a growing list of tools that would be useful for hackathon events so as to not spend time on recreating frameworks for each event.
+
+
+Tools:
+
+1. http_server: Simple light weight http server built on nodejs. On download the server can be started from command line as follows:
+$> node http_server
+
